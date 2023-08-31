@@ -4,6 +4,7 @@ public class Vehicle {
     protected float engineSize;
     protected String fuelType;
 
+    // Overloaded constructor
     public Vehicle(int numberOfWheels, String color, float engineSize, String fuelType) {
         this.numberOfWheels = numberOfWheels;
         this.color = color;
@@ -11,6 +12,7 @@ public class Vehicle {
         this.fuelType = fuelType;
     }
 
+    // Getters and setters below for all variables
     public int getNumberOfWheels() {
         return numberOfWheels;
     }
